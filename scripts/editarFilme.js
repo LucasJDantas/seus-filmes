@@ -126,7 +126,7 @@ btnExcluirFilme.addEventListener("click", async (evento) => {
             }) 
         }
         catch {
-            alert('Erro ao excluir pensamentos')
+            alert('Erro ao excluir filme!')
             throw error 
         }
 
