@@ -1,0 +1,117 @@
+/* .seus-filmes {
+    display: flex;
+    width: 100%;  
+} */
+
+.seus-filmes__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+
+    gap: 20px;
+    width: 100%;
+}
+
+.seus-filmes__lista__filme {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid var(--cor-preto);
+    box-shadow: 8px 8px 0px var(--cor-preto);
+    border-radius: 18px;
+    width: 550px;
+    background-color: var(--cor-branco);
+}
+
+.seus-filmes__lista__filme-poster {
+    display: flex;
+    width: 226px;
+    height: 340px;
+    border-radius: 16px 0 0 16px;
+}
+
+.seus-filmes__lista__filme__container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.seus-filmes__ajuste {
+    display: flex;
+    gap: 10px;
+}
+
+.seus-filmes__lista__filme-textos__superior {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+}
+
+.seus-filmes__lista__filme-textos__titulo {
+    font-family: var(--font-titulos);
+    font-weight: 800;
+    color: var(--cor-preto);
+    font-size: var(--font-size-l);
+    text-wrap: wrap;
+}
+
+.seus-filmes__lista__filme-textos__ano, 
+.seus-filmes__lista__filme-textos__duracao,
+.seus-filmes__lista__filme-textos__duracao-fixo {
+    font-family: var(--font-titulos);
+    font-weight: 800;
+    color: var(--cor-azul-claro);
+    font-size: var(--font-size-s);
+}
+
+.filme-duracao {
+    display: flex;
+    gap: 5px;
+}
+
+.filme-nota {
+    display: flex;
+}
+
+.seus-filmes__lista__filme-textos__nota,
+.seus-filmes__lista__filme-textos__nota-fixa {
+    font-family: var(--font-titulos);
+    font-weight: 800;
+    color: var(--cor-amarelo);
+    font-size: var(--font-size-s);
+}
+
+.seus-filmes__lista__filme-textos__bloco {
+    display: flex;
+    gap: 40px;
+}
+
+.seus-filmes__lista__filme-textos__inferior {
+    display: flex;
+    flex-direction: column;
+}
+
+.seus-filmes__lista__filme-textos__sinopse {
+    text-wrap: wrap;
+    font-family: var(--font-textos);
+    font-weight: 600;
+    color: var(--cor-cinza);
+    font-size: var(--font-size-s);
+}
+
+.seus-filmes__lista__filme__editar-filme {
+    cursor: pointer;
+}
+
+/* .seus-filmes__lista__filme__editar-filme:hover {
+    border: 2px solid var(--cor-amarelo);
+} */
+
+.divider-card {
+    width: 100%;
+    border: solid 1px var(--cor-azul-claro);
+}
