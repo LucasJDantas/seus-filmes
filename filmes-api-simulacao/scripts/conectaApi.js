@@ -1,4 +1,4 @@
-export const URL_BASE = "https://gist.githubusercontent.com/LucasJDantas/1d134bd949fd71188566058f22c640d1/raw/1d819954230e29928be18179e5e1a16f0d4bc0aa/filmes.json"
+export const URL_BASE = "https://gist.githubusercontent.com/LucasJDantas/5e9a413c725cdb522ade3fc79d74d6e2/raw/1f88fafdfae2fab9fbca02f13c0560348e64b9e4/filmes.json"
 
 export async function listaDeFilmes () {
     const conexao = await fetch(`${URL_BASE}`);
