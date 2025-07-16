@@ -8,13 +8,14 @@ Projeto pessoal de criação de uma plataforma para o usuário compartilhar seus
 
 Para visualizar a página funcionando: 
 
-<a href="https://lucasjdantas.github.io/seus-filmes/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github%20Pages&logoColor=white" target="_blank"></a>
+<a href="https://seus-filmes.vercel.app/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" target="_blank"></a>
 
 <hr>
 
 ## 🔨 Funcionalidades do projeto
 
-A aplicação Seus Filmes permite ao usuário exibir uma lista com seus filmes assistidos, inserindo uma nota de avaliação, pôster e sinopse, salvando-os em um `backend/API fake`.
+A aplicação Seus Filmes permite ao usuário exibir uma lista com seus filmes assistidos, inserindo uma nota de avaliação, pôster e sinopse, salvando-os em um `backend/API fake`. <br>
+O repositório possui dois diretórios: um para o projeto funcionando com `json-server` e outro para o projeto funcionando com um link externo `Gist`.
 
 <hr>
 
