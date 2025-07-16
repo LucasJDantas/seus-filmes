@@ -1,0 +1,24 @@
+HTML, CSS
+Arrumar o espaçamento no menu aside;
+Fixar o menu aside na tela para ele sempre ficar na esquerda, independente da rolagem;
+Arrumar o bg de quando o modal de inserir e editar filme aparece na tela e bloquear a rolagem;
+Fazer o modal aparecer onde estiver a tela e não no topo;
+Inverter a posição dos botões de cancelar e excluir filme;
+Deixar os botões de filtros mais bonitinhos;
+Fazer um novo botão de editar (ícone);
+Avaliação, duração e ano só podem receber número.
+
+JavaScript
+conectaApi.js: Conectar à API - Buscar os filmes que já estão salvos no banco de dados;
+mostrarFilmes.js: Renderizar os filmes - Aplicar os estilos dos cards em cada filme da lista buscada pela API;
+incluirFilme.js: Incluir um novo filme - Adiciona um filme ao banco de dados e renderiza o card com as novas informações;
+HTML, CSS e JavaScript: Atualizar inclusão e edição de filme para um modal;
+Botão de cancelar inclusão: Limpa os inputs, remove a imagem do upload e fecha o formulário de incluir filme;
+Botão de remover a imagem: Reseta o input do upload;
+editarFilme.js: Editar dados da API - Habilita a edição dos dados do filme e atualiza tanto o card quanto o banco de dados;
+editarFilme.js: Exclui um filme da lista e do front;
+filtrarFilmes.js: Filtrar filme de acordo com suas informações de Nome, Ano e Nota e renderizar os elementos dessa forma;
+filtrarFilmes.js: Remover filtros e resetar os filmes para o estado padrão (ordem em que foram adicionados);
+filtrarFilmes.js: Reordenar os filmes;
+Verificação de conteúdo: Verificar título;
+Criar barra de pesquisa (no aside?) por título do filme.
